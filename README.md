@@ -11,30 +11,24 @@ Utilização
 Instancie a classe MediaFileMover informando o caminho da pasta de origem e o caminho da pasta de destino.
 
 <br>
-<br>
 
-[```mover = MediaFileMover('C:/Users/Administrador/Desktop/teste Delivery', 'C:/Users/Administrador/Desktop/teste delivery destino')```]
-
+mover = MediaFileMover('C:/Users/Administrador/Desktop/teste Delivery', 'C:/Users/Administrador/Desktop/teste delivery destino')
 Execute o método move_files() para iniciar a movimentação de arquivos.
 
 <br>
-<br>
 
-[```mover.move_files()```]
+mover.move_files()
 
-<br>
 <br>
 
 Para que a movimentação de arquivos seja repetida a cada 30 segundos, utilize um loop.
 
 <br>
-<br>
 
-```while True:
+while True:
     mover.move_files()
-    sleep(30)```
+    sleep(30)
 
-<br>
 <br>
 
 # Observações
@@ -47,7 +41,6 @@ Esse script move arquivos para a pasta de destino e delete pasta vazia e arquivo
 # Dependências
 
 <br>
-<br>
 
 os
 re
@@ -59,15 +52,13 @@ babel.dates
 Logging
 
 <br>
-<br>
 
 As informações de log são registradas com o nível de informação (INFO).
 As mensagens de log são no formato: %(asctime)s [%(levelname)s]: %(message)s, data e hora do log é no formato: %Y-%m-%dT%H:%M:%S.%fZ.
 Exemplo
 
-[```2021-12-29T19:10:12.401Z [INFO]: Successfully moved example.jpg to >> C:/Users/Administrador/Desktop/teste delivery destino/DEZEMBRO/29/pasta_292220```]
+2021-12-29T19:10:12.401Z [INFO]: Successfully moved example.jpg to >> C:/Users/Administrador/Desktop/teste delivery destino/DEZEMBRO/29/pasta_292220
 
-<br>
 <br>
 
 # Como funciona
@@ -88,7 +79,6 @@ Este script é útil em casos onde é necessário manter arquivos organizados po
 Outra utilidade seria para casos onde é necessário manter arquivos organizados por data e automaticamente movê-los para outra pasta de armazenamento, tal como por exemplo organizar arquivos de relatórios, backups de arquivos, etc.
 É importante notar que este script utiliza a biblioteca babel.dates para formatar o nome do mês em português, então é necessário instalá-lo antes de usar o script. Além disso, como o script está configurado para repetir a movimentação de arquivos a cada 30 segundos, é importante ter em mente o impacto desse processo em seu sistema, e talvez utilizar uma abordagem diferente caso seja necessário.
 
-<br>
 <br>
 
 # Conclusão
