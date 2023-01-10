@@ -42,14 +42,14 @@ Esse script move arquivos para a pasta de destino e delete pasta vazia e arquivo
 
 <br>
 
-os
-re
-logging
-datetime
-shutil
-time
-babel.dates
-Logging
+os <br>
+re <br>
+logging <br>
+datetime <br>
+shutil <br>
+time <br>
+babel.dates <br>
+Logging <br>
 
 <br>
 
