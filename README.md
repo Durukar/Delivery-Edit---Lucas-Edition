@@ -1,5 +1,5 @@
-# MediaFileMover
-MediaFileMover é uma classe que move arquivos de uma pasta para outra, organizando-os por data.
+# Delivery Edit - Lucas Edition
+O Delivery Edit utiliza a classe "MediaFileMover" para mover arquivos de uma pasta para outra, organizando-os por data.
 
 # Características
 <br>
